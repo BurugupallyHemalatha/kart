@@ -1,0 +1,3 @@
+form validation provideing apropriate visual feed back is very inmportant. validation in template driven form : if the form control has been visited then ng-touched (class if true) has applied if the form control has been unvisited then ng-untouched (class
+if false) has been applied if the value is loaded not yet changed then this ng-pristine(class if true) has applied if the value is chenged then this ng-dirty(class of false) has applied ex:when input as defalt value for that we use pristine,if we type
+any thing in that turns pristine to dirty if the form controls value is valid then ng-valid(class if true) is applied if it is invalid then ng-invalid (class if false) is applied

@@ -1,0 +1,46 @@
+<!--code and the logic resides in the componet claass 
+no two way binding 
+well suited for complex scenarios
+Dynamic form fields
+custom validation dynamic validation unit test-->
+<!--
+    enteir form is represented as a form group and each form feild is represented as a form control in the component class
+-->
+<div class="container-fluid ">
+    <h2>Registration Form</h2>
+    <form [formGroup]="registrationForm">
+        {{registrationForm.value | json}}
+        <div class="form-group">
+            <label> Phone Number,Email id or Username</label>
+            <input formControlName="username" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input formControlName="password" type="password" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Confirm Password</label>
+            <input formControlName="confirmPassword" type="password" class="form-control">
+        </div>
+
+
+        <div formGroupName="address">
+            <div class="form-group">
+                <label>City</label>
+                <input formControlName="city" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>State</label>
+                <input formControlName="state" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Postal Code</label>
+                <input formControlName="postalCode" type="text" class="form-control">
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Register</button>
+        <button (click)="loadApiData()" class="btn btn-secondary ml-2" type="button">Load API Data</button>
+    </form>

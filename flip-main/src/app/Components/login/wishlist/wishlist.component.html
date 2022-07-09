@@ -1,0 +1,11 @@
+<p>wishlist works!</p>
+<p *ngFor="let user of name">{{user}}</p>
+<p *ngFor="let number of numbers">{{number}}</p>
+<p *ngIf="displayName; else elseBlock">codevolution</p>
+<ng-template #elseBlock>
+<h2>
+    name is hidden
+</h2>
+
+</ng-template>
+<button onclick="onEditClick()">clicked</button>

@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <h3>Registration Form</h3>
+    <form [formGroup]="registrationForm2">
+        {{registrationForm2.value | json}}
+        <div class="form-group">
+            <label>Firstname</label>
+            <input formControlName="fname" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>SecondName</label>
+            <input formControlName="sname" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input formControlName="password" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Confirm Password</label>
+            <input formControlName="confirmPassword" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Mobile Number</label>
+            <input formControlName="mobile" type="text" class="form-control">
+        </div>
+
+        <div formGroupName="address">
+            <div class="form-group">
+                <label>City</label>
+                <input formControlName="city" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>State</label>
+                <input formControlName="state" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Postal Code</label>
+                <input formControlName="postalCode" type="text" class="form-control">
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Register</button>
+        <button class="btn btn-secondary ml-2" type="button">Load API Data</button>
+    </form>
+</div>
+<div>
+    <a routerLink="register">register</a>
+</div>

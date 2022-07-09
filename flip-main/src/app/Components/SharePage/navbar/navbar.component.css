@@ -1,0 +1,252 @@
+.flip {
+    margin-left: 300px;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    margin-left: 128px;
+}
+
+.end {
+    margin-left: 77px;
+}
+
+.plu {
+    color: #ffe500;
+}
+
+.form-control {
+    border-radius: 5px;
+    margin-left: 25px;
+    width: 600px;
+}
+
+.search-icon {
+    z-index: 30;
+    position: absolute;
+    right: 50%;
+    color: black;
+    top: 24px;
+    right: 854px;
+    color: #2874f0;
+    margin-top: 12px;
+    margin-right: -238px;
+}
+
+.exploree {
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+    display: flex;
+}
+
+.us {
+    font-weight: 500;
+    margin-right: 2px;
+    color: yellow;
+}
+
+.form-control {
+    border-radius: inherit;
+    width: 463px;
+    margin-left: -1px;
+    margin-top: 13px;
+}
+
+.btn {
+    width: 137px;
+    height: 36px;
+    border-radius: inherit;
+}
+
+.navbar-nav {
+    display: flex;
+    margin: 5px;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-left: 38px;
+    font-weight: bold;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-item {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.nav-item a {
+    color: aliceblue
+}
+
+.btnh {
+    height: 36px;
+    width: 120px;
+    margin-top: 13px;
+    text-decoration: none;
+    border-color: white;
+    margin-left: 40px;
+    width: 141px;
+    height: 36px;
+    font-weight: bold;
+    color: #2874f0;
+    font-weight: 500;
+    width: 106px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    border: 1px solid #dbdbdb;
+    padding: 5px 40px;
+    width: 123px;
+    height: 36px;
+}
+
+.fa-shopping-cart {
+    padding: 14px;
+}
+
+.nav-link {
+    margin-right: 0px;
+}
+
+.cart-shop {
+    margin-left: 30px;
+    margin-right: -35px;
+}
+
+.nav-linkk {
+    margin-left: -33px;
+}
+
+.btnh {
+    position: relative;
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+
+/* .drop-data {
+    position: absolute;
+    width: 30%;
+    top: 36px;
+    background-color: red;
+    display: none;
+}
+
+.btnh:hover .drop-data:hover {
+    display: block;
+    transition: 1s;
+}
+
+.tri-item {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: blue;
+    position: absolute;
+    top: -10px;
+    left: 57px;
+} */
+
+.right-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    z-index: 1;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.right-menu:hover .dropdown-menu {
+    display: block;
+}
+
+.right-menu:hover .menu-button {
+    background-color: transparent;
+}
+
+.new {
+    display: inline;
+    margin-left: 30px;
+}
+
+.login {
+    flex-direction: column;
+    color: grey;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.l {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.lo {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.log {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.logi {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.login {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.login1 {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.login2 {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+/* .btnh {
+    background-color: transparent;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #fff;
+} */
